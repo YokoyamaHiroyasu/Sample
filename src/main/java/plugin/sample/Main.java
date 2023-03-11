@@ -71,6 +71,9 @@ public final class Main extends JavaPlugin implements Listener {
             Files.writeString(path, "かぎやー");
             player.sendMessage(Files.readString(path));
         }
+        Path path = Path.of("loop.txt");
+        Files.writeString(path, "ループ終わり");
+        player.sendMessage(Files.readString(path));
         count++;
     }
     @EventHandler
