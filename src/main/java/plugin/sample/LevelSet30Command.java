@@ -10,7 +10,7 @@ public class LevelSet30Command implements CommandExecutor{
   @Override
   public boolean onCommand(CommandSender sender, Command command, String label, String[] args) {
     if(sender instanceof Player player) {
-      player.setLevel(0);
+      player.setLevel(30);
     }
 
     return false;
