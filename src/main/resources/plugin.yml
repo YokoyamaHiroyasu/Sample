@@ -3,4 +3,5 @@ version: '${version}'
 main: plugin.sample.Main
 api-version: 1.19
 commands:
-  leveup:
+  levelset0:
+  levelset30:

@@ -30,7 +30,8 @@ public final class Main extends JavaPlugin implements Listener {
     @Override
     public void onEnable() {
         Bukkit.getPluginManager().registerEvents(this, this);
-        getCommand("levelup").setExecutor(new LeveUpCommand());
+        getCommand("levelset0").setExecutor(new LevelSet0Command());
+        getCommand("levelset30").setExecutor(new LevelSet30Command());
     }
 
     /**
@@ -91,6 +92,6 @@ public final class Main extends JavaPlugin implements Listener {
 
     @EventHandler
     public  void  onPlayerJoinEvent(PlayerJoinEvent e){
-        e.setJoinMessage("中級DAY1課題");
+        e.setJoinMessage("中級DAY2課題");
     }
 }
