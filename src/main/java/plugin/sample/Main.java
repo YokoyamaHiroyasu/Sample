@@ -91,6 +91,6 @@ public final class Main extends JavaPlugin implements Listener {
 
     @EventHandler
     public  void  onPlayerJoinEvent(PlayerJoinEvent e){
-        e.setJoinMessage("中級DAY2課題");
+        e.setJoinMessage("中級DAY3課題");
     }
 }
